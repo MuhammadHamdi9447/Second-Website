@@ -449,14 +449,14 @@ ul {
   animation: moving-arrow 0.6s linear infinite;
 }
 /* ........... End FeaturedPrice .......*/
-/* Start Discounts */
-/* ////////////////////   DISCOUNT  //////////////////////////// */
-.discount {
+/* Start specials */
+/* ////////////////////   special  //////////////////////////// */
+.special {
   margin:30px 0;
   display: flex;
   overflow: hidden;
 }
-.discount-desc{
+.special-desc{
   flex:2;
   background: #011c33;
   padding: 20px;
@@ -464,23 +464,23 @@ ul {
   margin-left: 160px;
   color: #fff;
 }
-.discount-item {
+.special-item {
   flex: 1;
   height: 300px;
   position: relative;
   margin-right: 10%;
 }
-.discount-item-info{
+.special-item-info{
   position: absolute;
   top:20px;
   left: 15px;
 }
-.discount-item-info h3{
+.special-item-info h3{
   font-weight: normal;
   color: var(--main-color);
   margin-top: 30px;
 }
-.discount-item-info button{
+.special-item-info button{
   border-radius: 50%;
   width: 90PX;
   height: 90px;
@@ -489,26 +489,26 @@ ul {
   color: var(--main-color);
 }
 
-.discount-item-info h2{
+.special-item-info h2{
   font-size: 20px;
   color: #fff;
   margin-top: 130px;
 }
-.discount-item:nth-child(2){
+.special-item:nth-child(2){
   background-image: url(../images/smart5.jpg);
   background-size: cover;
   margin:0 20px;
   transition: transform 0.5s;
 }
-.discount-item:nth-child(2):hover{
+.special-item:nth-child(2):hover{
   transform: scale(1.1);
 }
-.discount-desc .top{
+.special-desc .top{
   position: relative;
   padding-left: 50px;
   margin-bottom: 20px;
 }
-.discount-desc .top .icon{
+.special-desc .top .icon{
   position: absolute;
   left: 0px;
   top: 0px;
@@ -516,13 +516,13 @@ ul {
   color: var(--maincolor);
 }
 
-.discount-title{
+.special-title{
   font-weight: normal;
 }
-.discount-desc .top +p{
+.special-desc .top +p{
   line-height: 1.7;
 }
-.discount-desc .bullets span{
+.special-desc .bullets span{
    display: inline-block;
    width:50px;
    height: 2px;
@@ -530,21 +530,21 @@ ul {
    margin-left: 10px;
    background-color: #fff;
 }
-.discount-desc .bullets{
+.special-desc .bullets{
   text-align: right;
   position: absolute;
   bottom: 20px;
   right: 10px;
 }
-.discount-item:nth-child(3){
+.special-item:nth-child(3){
   background-image: url(../images/smart4.webp);
   background-size: cover; 
   transition: transform .5s;
 }
-.discount-item:nth-child(3):hover{
+.special-item:nth-child(3):hover{
   transform: scale(1.1);
 }
-/* End Discounts */
+/* End specials */
 /*/////////////////////////   iconImg //////////*/
 .iconImg {
   display:flex;
@@ -977,10 +977,10 @@ background-color: #F2F2F2;
 @keyframes change-background {
   0%,
   100% {
-    background-image: url("../imgs/discount-background1.jpg");
+    background-image: url("../imgs/special-background1.jpg");
   }
   50% {
-    background-image: url("../imgs/discount-background2.jpg");
+    background-image: url("../imgs/special-background2.jpg");
   }
 }
 /* End Animation */
